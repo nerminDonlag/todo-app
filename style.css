@@ -1,0 +1,28 @@
+body {
+  margin-top: 60px;
+}
+
+#container {
+  width: 360px;
+  margin: 0 auto;
+}
+
+h1, p {
+  text-align: center;
+}
+
+#form {
+  display: flex;
+}
+
+input {
+  flex: 5;
+}
+
+button {
+  flex: 1;
+}
+
+.close {
+  color: red;
+}
