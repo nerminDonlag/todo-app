@@ -37,3 +37,5 @@ document.addEventListener('keypress', (e) => {
       break;
   }
 });
+
+addText.focus();
