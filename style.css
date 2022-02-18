@@ -1,5 +1,7 @@
 body {
   margin-top: 60px;
+  background-color: floralwhite;
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 }
 
 #container {
@@ -11,18 +13,43 @@ h1, p {
   text-align: center;
 }
 
+p {
+  margin-bottom: 24px;
+}
+
 #form {
   display: flex;
 }
 
 input {
   flex: 5;
+  font-size: medium;
+  padding: 4px 12px;
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 }
 
 button {
   flex: 1;
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 }
 
 .close {
   color: red;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+  background-color:cornsilk;
+  padding: 4px 12px;
+  overflow: hidden;
+  margin: 4px 0px;
+}
+
+span {
+  float: right;
+  cursor: pointer;
 }
