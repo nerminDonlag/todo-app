@@ -23,7 +23,17 @@ function newListItem() {
   span.appendChild(txt);
   li.appendChild(span);
 
-  span.onclick = function() {
+  span.onclick = function () {
     this.parentElement.style.display = 'none';
   }
 }
+
+document.addEventListener('keypress', (e) => {
+  switch (e.code) {
+    case 'Enter':
+    case 'NumpadEnter':
+      newListItem();
+      addText.value = '';
+      break;
+  }
+});
